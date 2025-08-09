@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Multipage Education Website</title>
+    <!-- Fontawesome icons script    -->
+    <script
+      src="https://kit.fontawesome.com/acd129a404.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Google Fonts (Montserrat)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FAVICON -->
+    <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon" />
+    <!-- STYLESHETS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <style>
+      body {
+        background-image: url('./images/bg-texture.png');
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container container_nav">
+        <a href="index.html"><h4>EGATOR</h4></a>
+        <ul class="nav-menu">
+          <li class="nav-menu-list">
+            <a class="nav-menu-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-menu-list">
+            <a class="nav-menu-link" href="about.html">About</a>
+          </li>
+          <li class="nav-menu-list">
+            <a class="nav-menu-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-menu-list">
+            <a class="nav-menu-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <button class="nav-btn" id="open-menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="nav-btn" id="close-menu-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </nav>
+    <!--================END OF NAVBAR===========================-->
+
+    <section class="contacts">
+      <div class="container contacts-container">
+        <aside class="contact-aside">
+          <div class="aside-image">
+            <img src="./images/contact.svg" />
+          </div>
+
+          <h2>Contact Us</h2>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+            aliquam fuga recusandae ex veritatis. Tenetur.
+          </p>
+
+          <ul class="contact-detail">
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <h5>+20 01280338493</h5>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <h5>support@abood.com</h5>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <h5>Zagazig,Egypt</h5>
+            </li>
+          </ul>
+
+          <ul class="contact-social">
+            <li>
+              <a
+                href="https://www.facebook.com/abdo.reda.393950"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/_abdelrahman_reda_/?fbclid=IwAR2Oh_-66UYfTKc4rpt55KrIYITkHIbUkl-X6-QvjM_RXnb4sPR6tqar-sQ"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/abdulrahman-reda-a263081b3"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </aside>
+
+        <!--END OF ASIDE-->
+
+        <form action="https://formspree.io/f/xwkdlpjy" method="POST">
+          <div class="form-name">
+            <input
+              type="text"
+              name="First Name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="Last Name"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <div class="form-email">
+            <input
+              type="email"
+              name="Email Address"
+              placeholder="Your Email Address"
+              required
+            />
+          </div>
+          <div class="form-textarea">
+            <textarea
+              name="message"
+              rows="7"
+              placeholder="Write Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!--================END OF CONTACT===========================-->
+
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer-1">
+          <a href="index.html" class="footer-logo">
+            <h4>EGATOR</h4>
+          </a>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nulla
+            sunt qui.
+          </p>
+        </div>
+
+        <div class="footer-2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li class="footer-list"><a href="index.html">Home</a></li>
+            <li class="footer-list"><a href="about.html">About</a></li>
+            <li class="footer-list"><a href="courses.html">Courses</a></li>
+            <li class="footer-list"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-3">
+          <h4>Privacy</h4>
+          <ul class="privacy">
+            <li class="footer-list"><a href="#">Privacy Policy </a></li>
+            <li class="footer-list"><a href="#">Terms And Condition</a></li>
+            <li class="footer-list"><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-4">
+          <h4>Contact Us</h4>
+          <address class="contacts">
+            <p>
+              <a href="tel:+20 01280338493"> +20 01280338493</a>
+              <br />
+              <a href="mailto:ariad4179@gmail.com"> ariad4179@gmail.com </a>
+            </p>
+          </address>
+
+          <ul class="footer-social">
+            <li class="footer-list">
+              <a
+                href="https://www.facebook.com/abdo.reda.393950"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="footer-list">
+              <a
+                href="https://www.instagram.com/_abdelrahman_reda_/?fbclid=IwAR2Oh_-66UYfTKc4rpt55KrIYITkHIbUkl-X6-QvjM_RXnb4sPR6tqar-sQ"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="footer-list">
+              <a href="https://github.com" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li class="footer-list">
+              <a
+                href="https://www.linkedin.com/in/abdulrahman-reda-a263081b3"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <small>Copyright&copy;AbdelrhmanReda</small>
+      </div>
+    </footer>
+
+    <!-- ================END OF FOOTER =========================== -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
