@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.7;
   color: var(--color-white);
   background: var(--color-bg);
@@ -181,7 +181,8 @@ p {
 /*************************************************/
 .catogries {
   background: var(--color-bg1);
-  height: 51rem;
+  height: 50rem;
+  margin-bottom: 18rem;
 }
 .left-catogries h1 {
   line-height: 1;
@@ -210,6 +211,7 @@ p {
   transition: var(--transition);
 }
 .category:hover {
+  cursor: pointer;
   box-shadow: 0 4.8rem 4.8rem rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
@@ -241,7 +243,7 @@ p {
 /*************************************************/
 
 .courses {
-  margin-top: 12.8rem;
+  /* margin-top: 15rem; */
 }
 .courses_container {
   display: grid;
@@ -334,7 +336,7 @@ p {
   position: relative;
 }
 .testimonial-body::before {
-  content: '';
+  content: "";
   display: block;
   background: linear-gradient(
     135deg,
